@@ -1,4 +1,4 @@
-package com.carroll.log4j.config;
+package com.kyle.log4j.config;
 
 /**
  * @author carroll

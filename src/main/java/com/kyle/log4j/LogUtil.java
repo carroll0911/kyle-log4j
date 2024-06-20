@@ -1,4 +1,4 @@
-package com.carroll.log4j;
+package com.kyle.log4j;
 
 import ch.qos.logback.classic.Level;
 import ch.qos.logback.classic.Logger;
@@ -10,8 +10,8 @@ import ch.qos.logback.core.rolling.RollingFileAppender;
 import ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP;
 import ch.qos.logback.core.rolling.TimeBasedRollingPolicy;
 import ch.qos.logback.core.util.FileSize;
-import com.carroll.log4j.config.LogConfig;
-import com.carroll.log4j.filter.LogNameFilter;
+import com.kyle.log4j.config.LogConfig;
+import com.kyle.log4j.filter.LogNameFilter;
 import net.logstash.logback.appender.LogstashTcpSocketAppender;
 import net.logstash.logback.encoder.LogstashEncoder;
 import org.slf4j.LoggerFactory;
